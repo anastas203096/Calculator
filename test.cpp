@@ -2,6 +2,8 @@
 #include "Calculator.h"
 #define CATCH_CONFIG_MAIN
 
+using namespace std;
+
 
 bool unitTest() {
     Calculator c;
