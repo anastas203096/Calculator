@@ -14,8 +14,10 @@ test: Calculator.o test.o
 test.o: 
 	g++ -c test.cpp -o test.o 
 	
+runtest:
+	test
+
 run:
 	prog
 
-runtest:
-	test
+
