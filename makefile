@@ -17,8 +17,6 @@ test.o:
 run:
 	prog
 
-runtest:
-	test
 
 
 
