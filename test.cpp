@@ -2,19 +2,19 @@
 #include "Calculator.h"
 #define CATCH_CONFIG_MAIN
 
-
+using namespace std;
 
 
 bool unitTest() {
     Calculator c;
 
-   std::cout << "-Check sum " << std::endl;
+    cout << "-Check sum " << endl;
         if (c.Calculate(10, '+', 10) != 20) return false;
-   std::cout << "-Check substraction " << std::endl;
+   cout << "-Check substraction " << endl;
         if (c.Calculate(10, '-', 10) != 0) return false;
-   std:cout << "-Check multiplying " << std::endl;
+  cout << "-Check multiplying " << endl;
         if (c.Calculate(10, '*', 10) != 100) return false;
-    std::cout << "-Check division " << std::endl;
+    cout << "-Check division " << endl;
         if (c.Calculate(10, '/', 10) != 1) return false;
     return true;
 }
