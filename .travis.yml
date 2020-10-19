@@ -5,3 +5,5 @@ dist: xenial
 
 script: 
   - make
+  - make test
+  - make runtest
