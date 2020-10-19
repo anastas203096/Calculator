@@ -1,4 +1,4 @@
-#include "iostream.h"
+#include "iostream"
 #include "Calculator.h"
 #define CATCH_CONFIG_MAIN
 
